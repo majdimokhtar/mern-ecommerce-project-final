@@ -1,0 +1,103 @@
+.cardscontainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 10px !important;
+    justify-content: start;
+}
+.t-div-container-card{
+    margin-bottom: 10px;
+    
+}
+div.t-div-ariel {
+    width:250px;
+    height: auto;
+    background: #fdfdfd;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    margin: 10px !important;
+}
+
+div.t-div-ariel img.t-div-ariel-previewimage {
+    width: 250px !important;
+    height: 185px;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+}
+
+.card-content{
+    padding: 20px;
+}
+div.t-div-ariel:hover {
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    transition: box-shadow 0.2s ease-in-out;
+    transition: padding 0.05s linear;
+}
+
+div.t-div-ariel .t-div-ariel-subtitle {
+    font-size: 9pt;
+    color: #333333;
+}
+
+div.t-div-ariel .t-div-ariel-title {
+    display: block;
+    margin: 0.3em 0;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+}
+
+
+div.t-div-ariel div.t-div-ariel-bottom-meta {
+    padding-top: 20px;
+    border-top: 1px #ddd solid;
+}
+
+div.t-div-ariel div.t-div-ariel-bottom-meta-line {
+    margin-bottom: 0.1em;
+}
+
+div.t-div-ariel div.t-div-ariel-bottom-meta-line-price {
+    margin-top: 1em;
+}
+
+div.t-div-ariel .t-div-ariel-parameter-name, .t-div-ariel-parameter-price {
+    font-size: 9pt;
+    color: #999999;
+}
+
+div.t-div-ariel .t-div-ariel-parameter-name:after {
+    content: " ";
+}
+
+div.t-div-ariel .t-div-ariel-parameter-value {
+    font-size: 9pt;
+    color: #333333;
+}
+
+div.t-div-ariel .t-div-ariel-price {
+    font-size: 12pt;
+    color: #333333;
+    font-weight: bold;
+    display: block;
+}
+
+div.t-div-ariel .t-div-ariel-cart-button {
+    float: right;
+    position: relative;
+    bottom: 30px;
+}
+
+div.t-div-ariel .t-div-ariel-cart-button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background: #999999;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #fafafa;
+    font-weight: bold;
+}
+
+div.t-div-ariel .t-div-ariel-cart-button:hover {
+    background: cadetblue;
+}
